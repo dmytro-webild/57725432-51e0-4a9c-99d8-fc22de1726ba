@@ -63,11 +63,11 @@ export default function LandingPage() {
       tag="New Management"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/running-tracks-empty-health-club_637285-8442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/running-tracks-empty-health-club_637285-8442.jpg?_wi=1",
           imageAlt: "Modern gym interior weight room",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/strong-man-training-gym_1303-23655.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/strong-man-training-gym_1303-23655.jpg?_wi=1",
           imageAlt: "Person training in a gym",
         },
         {
@@ -133,7 +133,7 @@ export default function LandingPage() {
           description: "Free weights and resistance machines.",
           bentoComponent: "reveal-icon",
           icon: Activity,
-          imageSrc: "http://img.b2bpic.net/free-photo/running-tracks-empty-health-club_637285-8442.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/running-tracks-empty-health-club_637285-8442.jpg?_wi=2",
           imageAlt: "Fitness equipment",
         },
         {
@@ -141,7 +141,7 @@ export default function LandingPage() {
           description: "Personalized fitness planning.",
           bentoComponent: "reveal-icon",
           icon: Award,
-          imageSrc: "http://img.b2bpic.net/free-photo/strong-man-training-gym_1303-23655.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/strong-man-training-gym_1303-23655.jpg?_wi=2",
           imageAlt: "Fitness equipment",
         },
       ]}

@@ -32,56 +32,27 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "hero",
-        },
-        {
-          name: "Features",
-          id: "features",
-        },
-        {
-          name: "FAQ",
-          id: "faq",
-        },
-        {
-          name: "Contact",
-          id: "contact",
-        },
+        { name: "Home", id: "hero" },
+        { name: "Features", id: "features" },
+        { name: "FAQ", id: "faq" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="FitFusion"
+      button={{ text: "Get Started" }}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="Transform Your Fitness at Citadel"
       description="Experience a community-driven workout space built for progress and consistency. Join us and reach your health goals today."
       tag="New Management"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/running-tracks-empty-health-club_637285-8442.jpg?_wi=1",
-          imageAlt: "Modern gym interior weight room",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/running-tracks-empty-health-club_637285-8442.jpg",          imageAlt: "Modern gym interior weight room"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/strong-man-training-gym_1303-23655.jpg?_wi=1",
-          imageAlt: "Person training in a gym",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-modern-loft-gym-fitness_105762-2020.jpg",
-          imageAlt: "3d rendering modern loft gym and fitness",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/gym-interior-with-equipment_93675-128388.jpg",
-          imageAlt: "Gym interior with equipment",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/interior-view-gym_1048-9960.jpg",
-          imageAlt: "Interior view of a Gym",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/strong-man-training-gym_1303-23655.jpg",          imageAlt: "Person training in a gym"}
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -94,21 +65,9 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="Why Choose FitFusion"
       metrics={[
-        {
-          icon: ShieldCheck,
-          label: "Professional Staff",
-          value: "24/7",
-        },
-        {
-          icon: Sparkles,
-          label: "Clean Environment",
-          value: "Daily",
-        },
-        {
-          icon: Users,
-          label: "Active Community",
-          value: "100+",
-        },
+        { icon: ShieldCheck, label: "Professional Staff", value: "24/7" },
+        { icon: Sparkles, label: "Clean Environment", value: "Daily" },
+        { icon: Users, label: "Active Community", value: "100+" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -121,28 +80,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Cardio Zone",
-          description: "High-quality treadmills and bikes.",
-          bentoComponent: "reveal-icon",
-          icon: Activity,
-          imageSrc: "http://img.b2bpic.net/free-photo/fitness-equipment_53876-30407.jpg",
-          imageAlt: "Fitness equipment",
+          title: "Cardio Zone",          description: "High-quality treadmills and bikes.",          bentoComponent: "reveal-icon",          icon: Activity,
         },
         {
-          title: "Strength Training",
-          description: "Free weights and resistance machines.",
-          bentoComponent: "reveal-icon",
-          icon: Activity,
-          imageSrc: "http://img.b2bpic.net/free-photo/running-tracks-empty-health-club_637285-8442.jpg?_wi=2",
-          imageAlt: "Fitness equipment",
+          title: "Strength Training",          description: "Free weights and resistance machines.",          bentoComponent: "reveal-icon",          icon: Activity,
         },
         {
-          title: "Coaching",
-          description: "Personalized fitness planning.",
-          bentoComponent: "reveal-icon",
-          icon: Award,
-          imageSrc: "http://img.b2bpic.net/free-photo/strong-man-training-gym_1303-23655.jpg?_wi=2",
-          imageAlt: "Fitness equipment",
+          title: "Coaching",          description: "Personalized fitness planning.",          bentoComponent: "reveal-icon",          icon: Award,
         },
       ]}
       title="Gym Facilities & Services"
@@ -157,26 +101,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "m1",
-          value: "98%",
-          title: "Hygiene Rating",
-          description: "Regular sanitation protocols.",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-medical-mask-cleaning-gym-equipment_23-2148766021.jpg",
-        },
+          id: "m1",          value: "98%",          title: "Hygiene Rating",          description: "Regular sanitation protocols.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-medical-mask-cleaning-gym-equipment_23-2148766021.jpg"},
         {
-          id: "m2",
-          value: "4.5",
-          title: "Member Satisfaction",
-          description: "Based on our latest internal poll.",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-fit-people-training-together_23-2149734680.jpg",
-        },
+          id: "m2",          value: "4.5",          title: "Member Satisfaction",          description: "Based on our latest internal poll.",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-fit-people-training-together_23-2149734680.jpg"},
         {
-          id: "m3",
-          value: "15+",
-          title: "Expert Trainers",
-          description: "Years of combined experience.",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-sports-people-training-morning-gym_1157-32132.jpg",
-        },
+          id: "m3",          value: "15+",          title: "Expert Trainers",          description: "Years of combined experience.",          imageSrc: "http://img.b2bpic.net/free-photo/young-sports-people-training-morning-gym_1157-32132.jpg"},
       ]}
       title="Our Commitment"
       description="We are focused on providing a transparent, high-quality gym experience for all members."
@@ -188,14 +117,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "FitGear",
-        "HealthSupp",
-        "StrongHold",
-        "ApexCo",
-        "VitalBody",
-        "IronWill",
-        "NutriMax",
-      ]}
+        "FitGear", "HealthSupp", "StrongHold", "ApexCo", "VitalBody", "IronWill", "NutriMax"]}
       title="Proud Partners"
       description="We collaborate with leading brands to ensure our members receive top-tier support."
     />
@@ -205,21 +127,9 @@ export default function LandingPage() {
       <FaqSplitText
       useInvertedBackground={true}
       faqs={[
-        {
-          id: "f1",
-          title: "What are the operating hours?",
-          content: "We open daily at 6 AM.",
-        },
-        {
-          id: "f2",
-          title: "Do you offer personal training?",
-          content: "Yes, we have certified trainers on-site.",
-        },
-        {
-          id: "f3",
-          title: "Is the facility clean?",
-          content: "Absolutely, we sanitize all equipment daily.",
-        },
+        { id: "f1", title: "What are the operating hours?", content: "We open daily at 6 AM." },
+        { id: "f2", title: "Do you offer personal training?", content: "Yes, we have certified trainers on-site." },
+        { id: "f3", title: "Is the facility clean?", content: "Absolutely, we sanitize all equipment daily." },
       ]}
       sideTitle="Common Questions"
       sideDescription="Everything you need to know about starting your fitness journey at FitFusion."
@@ -234,26 +144,8 @@ export default function LandingPage() {
       rating={5}
       author="Sarah Miller"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/joyful-smiling-afro-american-man-with-bushy-hairstyle-wearing-big-headphones_176420-19943.jpg",
-          alt: "Sarah Miller",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-athletic-man-posing_23-2148605626.jpg",
-          alt: "John Doe",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/endurance-women-fitness-concept-goodlooking-young-healthy-sporty-female-athlete-finish-productive-training-take-breath-after-exercise-sit-with-legs-crossed-gym-floor-smiling-satisfied_197531-30358.jpg",
-          alt: "Alex Lee",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/happy-woman-riding-exercise-bike-gym_329181-12906.jpg",
-          alt: "Sam Smith",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/young-woman-white-top-standing-with-coach_1157-32126.jpg",
-          alt: "Emma Watts",
-        },
+        { src: "http://img.b2bpic.net/free-photo/joyful-smiling-afro-american-man-with-bushy-hairstyle-wearing-big-headphones_176420-19943.jpg", alt: "Sarah Miller" },
+        { src: "http://img.b2bpic.net/free-photo/medium-shot-athletic-man-posing_23-2148605626.jpg", alt: "John Doe" },
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="slide-up"
@@ -263,9 +155,7 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplit
       useInvertedBackground={true}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       tag="Contact Us"
       title="Visit Us Today"
       description="Have questions about membership or equipment? Stop by and see the progress for yourself."
@@ -279,26 +169,14 @@ export default function LandingPage() {
       columns={[
         {
           items: [
-            {
-              label: "About",
-              href: "#about",
-            },
-            {
-              label: "Features",
-              href: "#features",
-            },
+            { label: "About", href: "#about" },
+            { label: "Features", href: "#features" },
           ],
         },
         {
           items: [
-            {
-              label: "Contact",
-              href: "#contact",
-            },
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
+            { label: "Contact", href: "#contact" },
+            { label: "Privacy Policy", href: "#" },
           ],
         },
       ]}
